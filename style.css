@@ -1,15 +1,19 @@
 *{
     font-family: 'Courier New';
+    margin: 0;
 }
 
+
 .Top{
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px;
-    position: sticky;
+    padding-bottom: 10px;
+    
 }
 
 .logo{
@@ -29,8 +33,9 @@
 }
 
 .Sections{
-    background-image: url(../_lanco/Images/supermarket-4052658.jpg);
+    background-image: url(../Images/supermarket-4052658.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding: 0px;
 }
