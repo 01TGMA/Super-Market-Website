@@ -6,13 +6,15 @@
 
 .Top{
     position: sticky;
+    top: 0;
+    background: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     
 }
 
