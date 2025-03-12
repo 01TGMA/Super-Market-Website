@@ -1,0 +1,29 @@
+*{
+    font-family: 'Courier New';
+}
+
+.Top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    position: sticky;
+}
+
+.logo{
+    left: 0;
+    width: 120px;
+    height: 70px;
+}
+
+.cart{
+    width: 65px;
+    height: 50px;
+}
+
+.extra{
+    display: flex;
+    justify-content: space-between;   
+}
