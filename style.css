@@ -27,3 +27,10 @@
     display: flex;
     justify-content: space-between;   
 }
+
+.Sections{
+    background-image: url(../_lanco/Images/supermarket-4052658.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
