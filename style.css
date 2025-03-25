@@ -40,6 +40,7 @@
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
+    flex-wrap: wrap;
     display: grid;
     grid-template-columns: repeat(3, 0.3fr);
     grid-template-rows: repeat(2, 0.3fr);
@@ -49,17 +50,57 @@
 
 .Sections div{
     height: 200px;
+    align-items: center;
     background-color: aquamarine;
     width: 250px;
     margin-top: 35px;
-    border-radius: 2.5%;
+    border-radius: 1rem;
+    text-align: center; 
+    vertical-align: baseline;
+    
+}
+.Sections div p{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    opacity: 50%;
+    border-radius: 1rem 1rem 0 0 ;
 }
 
+.Sections .box{
+    background-size: cover;
+    background-position: center;
+}
+
+.Sections .box:hover{
+    transform: scale(1.05);
+    background-size: cover;
+}
+
+.Sections .box1{
+    background-image: url(./Images/churros-2188869.jpg);
+}
+.Sections .box2{
+    background-image: url(./Images/creme-366073_1280.jpg);
+}
+.Sections .box3{
+    background-image: url(./Images/books-5937716.jpg);
+}
+.Sections .box4{
+    background-image: url(./Images/cape-lode-2654051.jpg);
+}
+.Sections .box5{
+    background-image: url(./Images/baby-stuff-5749669.jpg);
+}
+.Sections .box6{
+    background-image: url(./Images/container-1838323_1920.jpg);
+}
 
 
 .Sections div:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.568), 0 6px 20px 0 rgba(0, 0, 0, 0.715);
     transform: scale(1, 1.2);
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 
 .off-screen-menu {
