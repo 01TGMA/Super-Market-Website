@@ -171,9 +171,17 @@ li{
 }
 
 
+.Footer{
+    display: grid;
+    grid-template-columns: repeat(3, 0.3fr);
+    grid-template-rows: repeat(2, 0.3fr);
+    gap: 20px;
+    flex
+}
+
 .Footer div{
     background-color: white;
-    margin-top: 20px;
+    margin-top: 20px; 
 }
 
 .Lago{
