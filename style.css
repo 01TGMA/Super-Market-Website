@@ -176,7 +176,7 @@ li{
     grid-template-columns: repeat(3, 0.3fr);
     grid-template-rows: repeat(2, 0.3fr);
     gap: 20px;
-    flex
+    justify-content: space-around;
 }
 
 .Footer div{
@@ -189,4 +189,8 @@ li{
     left: 0;
     width: 120px;
     height: 70px;
+}
+
+footer{
+    text-align: center;
 }
