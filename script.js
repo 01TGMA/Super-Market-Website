@@ -12,5 +12,5 @@ coin = 0
 
 function coinIncrease(){
     coin += 1
-    coinIn = coin
+    coinIn.textContent = coin
 }
