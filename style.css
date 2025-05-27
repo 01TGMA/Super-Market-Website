@@ -217,19 +217,20 @@ footer{
     border-radius: 10px;
     border-color: transparent;
     left: 1px;
+    font-size: larger;
 }
 
 #aCart{  
     width: 25px;
-    height: 25px;
-    border-radius: 25px;  
+    height: 35px;  
+    border-radius: 10px;
     border-color: transparent;  
     color: transparent;
-    margin-top: 5px;
+
 }
 
 .always-visible{
-    color: black;  
+    color: black; 
 }
 
 #aCart:hover .always-visible{
