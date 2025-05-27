@@ -19,9 +19,8 @@
 }
 
 .Top{
-    position: sticky;
     top: 0;
-    background: white;
+    background:transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -210,4 +209,58 @@ li{
 
 footer{
     text-align: center;
+}
+
+#kbuy{
+    width: 225px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: transparent;
+    left: 1px;
+}
+
+#aCart{  
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;  
+    border-color: transparent;  
+    color: transparent;
+    margin-top: 5px;
+}
+
+.always-visible{
+    color: black;  
+}
+
+#aCart:hover .always-visible{
+    color: whitesmoke;  
+}
+#aCart:hover{
+    width: 225px;
+    height: 35px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 0;
+    border-top: 0;
+
+}
+
+.prod1{
+    position: relative;
+    background-color: black;
+    border: 100px;
+    border-radius: 20px;
+    width: /*225px*/ 500px;
+    height: 250px;
+    overflow: hidden;
+    padding: 15px;
+    
+}
+.prodbut{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+    overflow: hidden;
 }
