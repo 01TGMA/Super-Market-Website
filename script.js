@@ -1,4 +1,7 @@
 const  hamMenu = document.querySelector('.ham-menu');
+const cartClick = document.getElementById("aCart");
+const cartN = document.getElementById("CartItems");
+let counter = 0;
 
 const OffScreenMenu = document.querySelector(".off-screen-menu");
 
@@ -7,10 +10,8 @@ hamMenu.addEventListener('click',() =>{
     OffScreenMenu.classList.toggle('active')
 })
 
-coinIn = document.getElementById("contex")
-coin = 0
 
-function coinIncrease(){
-    coin += 1
-    coinIn.textContent = coin
-}
+cartClick.addEventListener('click', () => {
+    counter += 1;
+    cartN.innerHTML = counter;
+})
