@@ -139,6 +139,7 @@
 
 .off-screen-menu.active{
     right: 0;
+    z-index: 9999;
 }
 
 li{
@@ -149,7 +150,8 @@ li{
     height: 50px;
     width: 50px;
     margin-left: auto;
-    position: relative;    
+    position: relative;
+    z-index: 9999;    
 }
 
 .ham-menu span{
