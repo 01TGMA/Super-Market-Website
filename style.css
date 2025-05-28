@@ -212,7 +212,7 @@ footer{
 }
 
 #kbuy{
-    width: 225px;
+    width: 190px;
     height: 35px;
     border-radius: 10px;
     border-color: transparent;
@@ -230,21 +230,25 @@ footer{
 }
 
 .prod1{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     position: relative;
     background-color: black;
-    border: 100px;
+    width: 250px;
+    height: 290px;
+    box-sizing: border-box;
     border-radius: 20px;
-    width: 225px;
-    height: 250px;
     overflow: hidden;
-    padding: 15px;
-    
+    margin: auto;
+  
 }
 .prodbut{
     position: absolute;
     bottom: 10px;
     display: flex;
     justify-content: space-between;
-    gap: 3px;
-    overflow: hidden;
+    gap: 5px;
+    margin: auto;
+    
 }
