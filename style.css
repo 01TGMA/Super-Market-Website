@@ -49,7 +49,7 @@
 }
 
 .Sections{
-    background-image: url(../Images/supermarket-4052658.jpg);
+    background-image: url('Images/supermarket-4052658.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -93,22 +93,22 @@
 }
 
 .Sections .box1{
-    background-image: url(./Images/churros-2188869.jpg);
+    background-image: url('Images/churros-2188869.jpg');
 }
 .Sections .box2{
-    background-image: url(./Images/creme-366073_1280.jpg);
+    background-image: url('Images/creme-366073_1280.jpg');
 }
 .Sections .box3{
-    background-image: url(./Images/books-5937716.jpg);
+    background-image: url('Images/books-5937716.jpg');
 }
 .Sections .box4{
-    background-image: url(./Images/cape-lode-2654051.jpg);
+    background-image: url('Images/cape-lode-2654051.jpg');
 }
 .Sections .box5{
-    background-image: url(./Images/baby-stuff-5749669.jpg);
+    background-image: url('Images/baby-stuff-5749669.jpg');
 }
 .Sections .box6{
-    background-image: url(./Images/container-1838323_1920.jpg);
+    background-image: url('Images/container-1838323_1920.jpg');
 }
 
 
