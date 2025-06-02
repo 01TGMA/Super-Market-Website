@@ -296,3 +296,8 @@ footer{
     margin-bottom: 30px;
     font-weight: bolder;
 }
+
+.pimg{
+    width: 250px;
+    height: 200px
+}
