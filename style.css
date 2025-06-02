@@ -158,6 +158,7 @@ a{
     text-align: center;
     font-size: 3rem;
     transition: .3s ease;
+    z-index: 9999;
 
 }
 

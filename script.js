@@ -12,10 +12,10 @@ hamMenu.addEventListener('click',() =>{
 
 
 
-    document.querySelectorAll(".cCart").forEach(button => {
-      button.addEventListener("click", () => {
-        counter.push("item");
-        cartN.textContent = counter.length;
-        console.log(counter);
-      });
+document.querySelectorAll(".cCart").forEach(button => {
+    button.addEventListener("click", () => {
+    counter.push("item");
+    cartN.textContent = counter.length;
+    console.log(counter);
     });
+});
