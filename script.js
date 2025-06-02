@@ -1,5 +1,5 @@
 const  hamMenu = document.querySelector('.ham-menu');
-const cartClick = document.getElementById("aCart");
+//const cartClick = document.getElementById("aCart");
 const cartN = document.getElementById("CartItems");
 let counter = []
 
@@ -11,8 +11,11 @@ hamMenu.addEventListener('click',() =>{
 })
 
 
-cartClick.addEventListener('click', () => {
-    counter.push("item")
-    cartN.innerHTML = counter.length;
-    console.log(counter)
-})
+
+    document.querySelectorAll(".cCart").forEach(button => {
+      button.addEventListener("click", () => {
+        counter.push("item");
+        cartN.textContent = counter.length;
+        console.log(counter);
+      });
+    });
