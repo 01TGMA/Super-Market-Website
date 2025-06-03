@@ -22,13 +22,13 @@ document.querySelectorAll(".cCart").forEach(button => {
 
 
 
-document.querySelectorAll("kbuy").forEach(button => {
-    button.addEventListener("click", function(){
+document.querySelectorAll("#kbuy").forEach(button => {
+    button.addEventListener("click", () => {
     document.getElementById("buyPopUp").style.display="flex";
-    })
+    });
 })
 
-document.querySelectorAll("closePopup").forEach(button => {
+document.querySelectorAll("#closePopup").forEach(button => {
     button.addEventListener("click", function(){
         document.getElementById("buyPopUp").style.display="none";
     })
