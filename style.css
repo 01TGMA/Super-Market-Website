@@ -262,7 +262,7 @@ footer{
     position: relative;
     background-color: white;
     width: 250px;
-    height: 290px;
+    height: 300px;
     box-sizing: border-box;
     border-radius: 20px;
     overflow: hidden;
@@ -280,7 +280,6 @@ footer{
     justify-content: space-between;
     gap: 5px;
     margin: auto;
-    
 }
 
 .main-Prod{
@@ -302,6 +301,13 @@ footer{
 }
 
 .pimg{
-    width: 210px;
-    height: 180px
+    width: 200px;
+    height: 180px;
+    justify-self: center;
+}
+
+.imgDiv{
+    top: 10px;
+    width: 200px;
+    height: fit-content;
 }
