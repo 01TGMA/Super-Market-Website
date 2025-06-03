@@ -260,7 +260,7 @@ footer{
     justify-content: center;
     align-items: center; 
     position: relative;
-    background-color: black;
+    background-color: white;
     width: 250px;
     height: 290px;
     box-sizing: border-box;
@@ -269,6 +269,10 @@ footer{
     margin: auto;
   
 }
+.prod1:hover{
+    border: 3px solid whitesmoke;
+}
+
 .prodbut{
     position: absolute;
     bottom: 10px;
@@ -298,6 +302,6 @@ footer{
 }
 
 .pimg{
-    width: 250px;
-    height: 200px
+    width: 210px;
+    height: 180px
 }
