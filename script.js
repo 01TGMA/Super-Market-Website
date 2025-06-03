@@ -19,3 +19,17 @@ document.querySelectorAll(".cCart").forEach(button => {
     console.log(counter);
     });
 });
+
+
+
+document.querySelectorAll("kbuy").forEach(button => {
+    button.addEventListener("click", function(){
+    document.getElementById("buyPopUp").style.display="flex";
+    })
+})
+
+document.querySelectorAll("closePopup").forEach(button => {
+    button.addEventListener("click", function(){
+        document.getElementById("buyPopUp").style.display="none";
+    })
+})
