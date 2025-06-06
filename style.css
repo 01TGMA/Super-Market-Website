@@ -306,10 +306,19 @@ footer{
     justify-self: center;
 }
 
-.imgDiv{
+.bimg{
+    width: 160px;
+    height: 200px;
+    justify-self: center;  
+}
+
+.imgDiv{    
+    display: flex;
     top: 10px;
     width: 200px;
     height: fit-content;
+    justify-content: center;
+    align-content: center;
 }
 #buyPopUp{
     position: fixed;
