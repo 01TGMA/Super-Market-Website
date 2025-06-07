@@ -1,8 +1,8 @@
 const  hamMenu = document.querySelector('.ham-menu');
 //const cartClick = document.getElementById("aCart");
 const cartN = document.getElementById("CartItems");
-let counter = []
-
+let counter = JSON.parse(localStorage.getItem('Products')) || [];
+cartN.textContent = counter.length;
 const OffScreenMenu = document.querySelector(".off-screen-menu");
 
 hamMenu.addEventListener('click',() =>{
@@ -10,16 +10,21 @@ hamMenu.addEventListener('click',() =>{
     OffScreenMenu.classList.toggle('active')
 })
 
-
+function updatearr(){
+    counter.push("item")
+    localStorage.setItem('Products', JSON.stringify(counter));
+    let storedArray = JSON.parse(localStorage.getItem('Products'));
+    let arrayLength = storedArray ? storedArray.length : 0;
+    cartN.textContent = counter.length;
+    
+}
 
 document.querySelectorAll(".cCart").forEach(button => {
     button.addEventListener("click", () => {
-    counter.push("item");
-    cartN.textContent = counter.length;
-    console.log(counter);
+    updatearr()
+
     });
 });
-
 
 
 document.querySelectorAll("#kbuy").forEach(button => {
