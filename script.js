@@ -38,3 +38,5 @@ document.querySelectorAll("#closePopup").forEach(button => {
         document.getElementById("buyPopUp").style.display="none";
     })
 })
+
+// End - 07/06/2025
